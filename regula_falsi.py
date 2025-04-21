@@ -1,5 +1,5 @@
 def f(x):
-    return x**4 - 17
+    return x**3 - 17
 
 accuracy = 1e-10
 

@@ -1,6 +1,6 @@
 
 def f(x):
-    return x**2 - 30
+    return x**2 - x - 30
 
 accuracy = 1e-7
 

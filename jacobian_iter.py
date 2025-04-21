@@ -20,7 +20,6 @@ def jacobi(A, b, max_iterations=100, tolerance=1e-9):
     return x_new
 
 def rearrange_diagonally_dominant(A, b):
-    from copy import deepcopy
     n = len(A)
     used = [False] * n
     newA = [None] * n
@@ -44,7 +43,6 @@ def rearrange_diagonally_dominant(A, b):
 
     return newA, newB
 
-# Example Input
 A = [[20, 1, -2], [3, 20, -1], [2, -3, 20]]
 B = [17, -18, 25]
 

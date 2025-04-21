@@ -18,11 +18,11 @@ def picards_method(f, x0, y0, n, finx):
 
 x, y = symbols('x y')
 
-# Given ODE: y' = x - y
-f = x**2 - y
+# Given ODE: y' = x**2 - y**2
+f = x**2 - y**2
 
 x0 = 0
-y0 = 678
-finx = 0.7
+y0 = 0
+finx = 0.3 # final x
 
 print(picards_method(f, x0, y0, 1000, finx))

@@ -1,8 +1,8 @@
 def f(x):
-    return x**4 - 17
+    return x**3 - 2*x - 17
 
 def fdash(x):
-    return 4*x**3
+    return 3*(x)**2 - 2
 
 accuracy = 1e-15
 
