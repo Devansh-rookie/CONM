@@ -1,3 +1,4 @@
+import math
 def fixed_point_iteration(g, x0, tolerance=1e-6, max_iterations=100):
     x = x0
     for i in range(max_iterations):
@@ -9,7 +10,6 @@ def fixed_point_iteration(g, x0, tolerance=1e-6, max_iterations=100):
     print("Maximum iterations reached without convergence.")
     return x
 
-import math
 
 # Define g(x) = cos(x)
 def g(x):
